@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+     <!-- Lien vers le fichier CSS -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bandeau">
+        <h1>Bienvenue au pays des NFT</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos de nous</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#contact">Contactez-nous</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <h1>Accueil</h1>
+        <h2>Voici les photos NFT en vente:</h2>
+        <img src="IMG-20240625-WA0001.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0002.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0003.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0004.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0005.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0006.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0007.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0008.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0009.jpg" alt="Image d'accueil" width="350" height="250">
+        <img src="IMG-20240625-WA0010.jpg" alt="Image d'accueil" width="350" height="250">
+    </div>
+
+    <div id="about">
+        <h1>À propos de nous</h1>
+        <h4>À NFT Universe, nous croyons en l'importance de soutenir les créateurs de contenu en leur offrant une plateforme sécurisée et transparente pour présenter leur travail. Chaque œuvre d'art numérique est associée à un NFT, garantissant ainsi son authenticité et sa propriété unique. Les artistes peuvent facilement créer et mettre en vente leurs œuvres, tandis que les acheteurs peuvent parcourir une vaste collection d'art numérique de haute qualité.</h4>
+    </div>
+
+    <div id="services">
+        <h1>Nos services</h1>
+        <h4>NFT Universe est bien plus qu'une simple marketplace ; c'est une plateforme intégrée offrant une gamme complète de services pour soutenir et développer l'écosystème des NFT. Rejoignez-nous dès aujourd'hui pour découvrir les possibilités infinies du monde des NFT et profiter de nos services exceptionnels.
+
+
+
+
+
+
+        </h4>
+    </div>
+
+    <div id="contact">
+        <h1>Contactez-nous</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Sujet :</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+</body>
+</html>
